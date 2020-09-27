@@ -29,7 +29,7 @@ div#problems {
   padding: 30px;
   background-color: #00264d;
   border: center;
-  color: #333333;
+  color: white;
   width:650px;
   display: blpck;
   text-align: center;
@@ -39,7 +39,7 @@ div#results {
     padding: 30px;
     background-color: #00264d;
     border: none;
-    color: #333333;
+    color: white;
     width:650px;
     display: blpck;
     text-align: center;
