@@ -14,23 +14,24 @@ img {
 
 div#challanges {
     padding: 50px;
-    background-color: dodgerblue;
-    border: solid 1px #333333;
-    height: 40vh;
-}
-
-div#problems {
-    padding: 50px;
     background-color: lightsteelblue;
     border: solid 1px #333333;
-    height: 40vh;
+    height: 30vh;
+    width: auto
+  }
+
+div#problems {
+    padding: 40px;
+    background-color: lightsteelblue;
+    border: solid 1px #333333;
+    height: 30vh;
 }
 
 div#results {
-    padding: 50px;
+    padding: 30px;
     background-color: lightsteelblue;
     border: solid 1px #333333;
-    height: 40vh;
+    height: 30vh;
 }
 
 h1, h2, h3 {
