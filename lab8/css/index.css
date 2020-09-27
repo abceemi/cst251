@@ -6,7 +6,7 @@ body {
 }
 
 img {
-    float: right;
+    float: center;
     width: 400px;
     height: auto;
     border-radius: 50%;
@@ -16,7 +16,7 @@ div#challanges {
     padding: 50px;
     background-color: lightsteelblue;
     border: solid 1px #333333;
-    height: 30vh;
+    height: 20vh;
     width: auto
   }
 
@@ -24,14 +24,14 @@ div#problems {
     padding: 40px;
     background-color: lightsteelblue;
     border: solid 1px #333333;
-    height: 30vh;
+    height: 20vh;
 }
 
 div#results {
     padding: 30px;
     background-color: lightsteelblue;
     border: solid 1px #333333;
-    height: 30vh;
+    height: 20vh;
 }
 
 h1, h2, h3 {
