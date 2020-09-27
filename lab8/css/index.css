@@ -44,6 +44,9 @@ div#results {
 }
 
 h1,{
+  font-family: "Courier New", monospace;
+  color: #00264d;
+  text-transform: uppercase;
   text-align: center;
   display: block;
   margin-left: auto;
@@ -57,7 +60,7 @@ h2, h3 {
 
 
 a {
-    text-decoration: white;
+    text-decoration: none;
     color: siennaqqq;
 }
 a:hover {
