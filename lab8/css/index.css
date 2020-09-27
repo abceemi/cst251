@@ -40,24 +40,22 @@ div#results {
 }
 
 h1,{
-  font-family: "Courier New", monospace;
+  font-family: "times new roman";
   color: #00264d;
   text-transform: uppercase;
   text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 h2, h3 {
-    font-family: "Courier New", monospace;
+    font-family: "times new roman";
     color: lightcyan;
     text-transform: uppercase;
 }
 
 
 a {
-    text-decoration: white;
-    color: siennaqqq;
+    text-decoration: none;
+    color: white;
 }
 a:hover {
     text-decoration: underline;
