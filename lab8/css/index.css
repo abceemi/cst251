@@ -4,7 +4,7 @@ body {
     padding: 20px;
     font-size: 120%;
 }
- div .header-image{
+ div#image{
    width: 700px;
    height: auto;
    text-align: center;
