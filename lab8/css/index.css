@@ -5,14 +5,14 @@ body {
     font-size: 120%;
 }
  div#image{
-   transform: matrix();
+   border-radius: 50%;
    width: 700px;
    height: auto;
    text-align: center;
    display: block;
    margin-left: auto;
    margin-right: auto;
-   border-radius: 50%;
+
  }
 
 div#challanges {
