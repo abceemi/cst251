@@ -15,18 +15,21 @@ body {
  }
 
 div#challanges {
-    padding: 50px;
-    background-color: #00264d;
-    border: solid 1px #333333;
-    height: 20vh;
-    width: auto
+  padding: 30px;
+  background-color: #00264d;
+  border: none;
+  color: #333333;
+  width:650px;
+  display: blpck;
   }
 
 div#problems {
-    padding: 40px;
-    background-color: #00264d;
-    border: solid 1px #333333;
-    height: 20vh;
+  padding: 30px;
+  background-color: #00264d;
+  border: none;
+  color: #333333;
+  width:650px;
+  display: blpck;
 }
 
 div#results {
