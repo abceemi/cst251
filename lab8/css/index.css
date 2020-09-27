@@ -44,7 +44,7 @@ h1,{
   color: #00264d;
   text-transform: uppercase;
   text-align: center;
-  
+
 }
 h2, h3 {
     font-family: "times new roman";
@@ -60,4 +60,5 @@ a {
 a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
+    color: white;
 }
