@@ -1,35 +1,8 @@
 body {
     font-family: times, serif,  "times new roman";
-    background-color: mistyrose;
+    background-color: midnightblue;
     padding: 25px;
     font-size: 120%;
-}
-
-div#challanges {
-    padding: 50px;
-    background-color: lightsteelblue;
-    border: solid 1px #333333;
-    height: 80vh;
-}
-
-div#problems {
-    padding: 50px;
-    background-color: lightsteelblue;
-    border: solid 1px #333333;
-    height: 80vh;
-}
-
-div#results {
-    padding: 50px;
-    background-color: lightsteelblue;
-    border: solid 1px #333333;
-    height: 80vh;
-}
-
-h1, h2, h3 {
-    font-family: "Courier New", monospace;
-    color: blue;
-    text-transform: uppercase;
 }
 
 img {
@@ -38,6 +11,34 @@ img {
     height: auto;
     border-radius: 50%;
 }
+
+div#challanges {
+    padding: 50px;
+    background-color: dodgerblue;
+    border: solid 1px #333333;
+    height: 40vh;
+}
+
+div#problems {
+    padding: 50px;
+    background-color: lightsteelblue;
+    border: solid 1px #333333;
+    height: 40vh;
+}
+
+div#results {
+    padding: 50px;
+    background-color: lightsteelblue;
+    border: solid 1px #333333;
+    height: 40vh;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+    color: blue;
+    text-transform: uppercase;
+}
+
 
 a {
     text-decoration: none;
