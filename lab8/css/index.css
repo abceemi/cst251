@@ -6,7 +6,8 @@ body {
 }
 
 img {
-    float: center;
+    float: none;
+    left: 30px;
     width: 400px;
     height: auto;
     border-radius: 50%;
