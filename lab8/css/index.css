@@ -19,7 +19,7 @@ div#challanges {
   padding: 30px;
   background-color: #00264d;
   border: none;
-  border-center;
+  border: center;
   color: white;
   width:650px;
   display: block;
