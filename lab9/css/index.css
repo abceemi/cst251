@@ -5,7 +5,7 @@
     font-size: 120%;
 }
 
-div#image{
+#image{
   border-radius: 50%;
   width: 700px;
   height: auto;
@@ -15,7 +15,7 @@ div#image{
   margin-right: auto;
   transition: transform .2s;
 }
-div#challanges {
+#challanges {
   padding: 30px;
   background-color: #00264d;
   color: white;
@@ -25,7 +25,7 @@ div#challanges {
   margin-right: auto;
   }
 
-div#problems {
+#problems {
   padding: 30px;
   background-color: #00264d;
   color: white;
@@ -35,7 +35,7 @@ div#problems {
   margin-right: auto;
 }
 
-div#results {
+#results {
     padding: 30px;
     background-color: #00264d;
     color: white;
