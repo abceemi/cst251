@@ -19,28 +19,24 @@
   padding: 30px;
   background-color: #00264d;
   width:650px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 100%;
+
+  border-radius: 200%;
   }
 
 #problems {
   padding: 30px;
   background-color: #00264d;
   width:650px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 100%;
+
+  border-radius: 200%;
 }
 
 #results {
     padding: 30px;
     background-color: #00264d;
     width:650px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 100%;
-    border-top style: dotted;
+
+    border-radius: 200%;
 
 }
 
