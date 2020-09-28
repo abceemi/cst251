@@ -13,7 +13,7 @@ div#image{
   display: circle;
   margin-left: auto;
   margin-right: auto;
- 
+  transition: transform .2s;
 }
 div#challanges {
   padding: 30px;
