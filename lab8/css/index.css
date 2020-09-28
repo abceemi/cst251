@@ -24,6 +24,8 @@ div#challanges {
   width:650px;
   display: block;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 div#problems {
@@ -34,6 +36,8 @@ div#problems {
   width:650px;
   display: block;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div#results {
@@ -44,6 +48,8 @@ div#results {
     width:650px;
     display: block;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
