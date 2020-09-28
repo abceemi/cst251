@@ -12,12 +12,19 @@
     width: 400px;
     height: auto;
 }
-div#challenge{
-  padding: 50px;
-  background-color: lightgray;
-  border: solid 1px #333333;
-  height: 80vh;
-}
+div#challanges {
+  padding: 30px;
+  background-color: #00264d;
+  border: none;
+  border: center;
+  color: white;
+  width:650px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
 #problem{
   padding: 50px;
   background-color: lightgray;
