@@ -4,6 +4,7 @@ body {
     padding: 20px;
     font-size: 120%;
 }
+
 div#image{
   border-radius: 50%;
   width: 700px;
@@ -12,8 +13,10 @@ div#image{
   display: circle;
   margin-left: auto;
   margin-right: auto;
+  transform: translate(50px, 100px);
  }
 
+}
 div#challanges {
   padding: 30px;
   background-color: #00264d;
