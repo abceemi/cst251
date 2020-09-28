@@ -5,12 +5,14 @@ body {
     font-size: 120%;
 }
  div#image{
+   .zoom{
    width: 700px;
    height: auto;
    text-align: center;
    display: block;
   transition: transform .2s;
   margin: auto;
+  }
 
  }
 
