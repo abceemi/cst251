@@ -22,7 +22,7 @@ div#challanges {
   border-center;
   color: white;
   width:650px;
-  display: blpck;
+  display: block;
   text-align: center;
   }
 
@@ -32,7 +32,7 @@ div#problems {
   border: center;
   color: white;
   width:650px;
-  display: blpck;
+  display: block;
   text-align: center;
 }
 
@@ -42,7 +42,7 @@ div#results {
     border: none;
     color: white;
     width:650px;
-    display: blpck;
+    display: block;
     text-align: center;
 
 }
