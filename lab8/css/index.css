@@ -6,12 +6,13 @@ body {
 }
  div#image{
    .zoom{
-   width: 700px;
-   height: auto;
-   text-align: center;
-   display: block;
-  transition: transform .2s;
-  margin: auto;
+     border-radius: 50%;
+     width: 700px;
+     height: auto;
+     text-align: center;
+     display: block;
+    transition: transform .2s;
+    margin: auto;
   }
 
  }
