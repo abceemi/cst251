@@ -12,7 +12,7 @@
     width: 400px;
     height: auto;
 }
-#challenge{
+div#challenge{
   padding: 50px;
   background-color: lightgray;
   border: solid 1px #333333;
