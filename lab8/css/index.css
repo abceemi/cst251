@@ -4,16 +4,16 @@ body {
     padding: 20px;
     font-size: 120%;
 }
- div#image{
-   .zoom{
-     border-radius: 50%;
-     width: 700px;
-     height: auto;
-     text-align: center;
-     display: block;
-    transition: transform .2s;
-    margin: auto;
-  }
+div#image{
+  border-radius: 50%;
+  width: 700px;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
  }
 
