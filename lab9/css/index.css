@@ -18,7 +18,7 @@
 #challanges {
   padding: 30px;
   background-color: #00264d;
-  color: white;
+  
   width:650px;
   text-align: center;
   margin-left: auto;
@@ -28,7 +28,7 @@
 #problems {
   padding: 30px;
   background-color: #00264d;
-  color: white;
+
   width:650px;
   text-align: center;
   margin-left: auto;
@@ -38,7 +38,7 @@
 #results {
     padding: 30px;
     background-color: #00264d;
-    color: white;
+
     width:650px;
     text-align: center;
     margin-left: auto;
@@ -62,6 +62,11 @@ h2, h3 {
 }
 
 
+a {
+    color: white;
+    text-align: center;
+
+}
 a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
