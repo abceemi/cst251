@@ -33,8 +33,8 @@ div#problems {
   background-color: #00264d;
 
   color: white;
+  width:650px;
   
-  display: block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
