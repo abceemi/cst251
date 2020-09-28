@@ -1,24 +1,78 @@
-div#content {
-    font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: gray;
-    padding: 25px;
+body {
+    font-family: times, serif,  "times new roman";
+    background-color: #e6f2ff;
+    padding: 20px;
     font-size: 120%;
 }
 
-div#challenge {
-  padding: 50px;
-  background-color: blue;
-  border: solid 1px #333333;
-  height: 80vh;
+div#image{
+  border-radius: 50%;
+  width: 700px;
+  height: auto;
+  text-align: center;
+  display: circle;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform .2s;
+}
+div#challanges {
+  padding: 30px;
+  background-color: #00264d;
+  border: none;
+  border: center;
+  color: white;
+  width:650px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+div#problems {
+  padding: 30px;
+  background-color: #00264d;
+  border: center;
+  color: white;
+  width:650px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h1, h2, h3 {
-    font-family: "Courier New", monospace;
+div#results {
+    padding: 30px;
+    background-color: #00264d;
+    border: none;
+    color: white;
+    width:650px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
+h1 {
+  font-family: "times new roman";
+  color: #00264d;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+h2, h3 {
+    font-family: "times new roman";
+    color: lightcyan;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 a {
     text-decoration: none;
-    color: maroon;
+    text-align: center;
+    color: lightcyan;
 }
 a:hover {
     text-decoration: underline;
