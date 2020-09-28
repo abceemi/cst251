@@ -18,9 +18,7 @@
 #challanges {
   padding: 30px;
   background-color: #00264d;
-
   width:650px;
-
   margin-left: auto;
   margin-right: auto;
   }
@@ -28,9 +26,7 @@
 #problems {
   padding: 30px;
   background-color: #00264d;
-
   width:650px;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -38,11 +34,9 @@
 #results {
     padding: 30px;
     background-color: #00264d;
-
     width:650px;
-
-    margin-left: auto;
-    margin-right: auto;
+    margin: center
+    
 
 }
 
