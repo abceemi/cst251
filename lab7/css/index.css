@@ -19,13 +19,14 @@ h1{
 }
 h2, h3 {
     font-family: "Courier New", monospace;
-    
+
 }
 
 img {
     float: right;
     width: 400px;
     height: auto;
+    border-radius: 50%;
 }
 
 a {
