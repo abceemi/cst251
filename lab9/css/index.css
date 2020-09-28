@@ -18,9 +18,9 @@
 #challanges {
   padding: 30px;
   background-color: #00264d;
-  color: white;
+
   width:650px;
-  text-align: center;
+
   margin-left: auto;
   margin-right: auto;
   }
@@ -28,9 +28,9 @@
 #problems {
   padding: 30px;
   background-color: #00264d;
-  color: white;
+
   width:650px;
-  text-align: center;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -38,9 +38,9 @@
 #results {
     padding: 30px;
     background-color: #00264d;
-    color: white;
+
     width:650px;
-    text-align: center;
+
     margin-left: auto;
     margin-right: auto;
 
@@ -59,4 +59,9 @@ h2, h3 {
     color: lightcyan;
     text-transform: uppercase;
     text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
 }
