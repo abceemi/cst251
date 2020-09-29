@@ -62,7 +62,12 @@ h2, h3 {
     text-align: center;
 }
 
-p {
+p, a {
   color: white;
   text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
 }
