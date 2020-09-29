@@ -6,7 +6,8 @@
 }
 
 #image{
-  
+  width: auto;
+  height: auto;
   padding: 30px;
 
   text-align: center;
