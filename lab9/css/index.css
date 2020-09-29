@@ -16,6 +16,13 @@
   text-align: center;
 
 }
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+  }
 #challanges {
   padding: 30px;
   background-color: #00264d;
