@@ -70,4 +70,5 @@ p, a {
 a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
+    text-align: center;
 }
