@@ -22,6 +22,7 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 200%;
+  margin-bottom: auto;
   }
 
 #problems {
@@ -31,6 +32,7 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 200%;
+  margin-bottom: auto;
 }
 
 #results {
@@ -40,6 +42,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 200%;
+    margin-bottom: auto;
 
 }
 
