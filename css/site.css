@@ -1,0 +1,80 @@
+body {
+    font-family: times, serif,  "times new roman";
+    background-color: #e6f2ff;
+    padding: 20px;
+    font-size: 120%;
+}
+
+div#image{
+  border-radius: 50%;
+  width: 700px;
+  height: auto;
+  text-align: center;
+  display: circle;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform .2s;
+}
+div#challanges {
+  padding: 30px;
+  background-color: #00264d;
+  border: none;
+  border: center;
+  color: white;
+  width:650px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+div#problems {
+  padding: 30px;
+  background-color: #00264d;
+  border: center;
+  color: white;
+  width:650px;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#results {
+    padding: 30px;
+    background-color: #00264d;
+    border: none;
+    color: white;
+    width:650px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+  font-family: "times new roman";
+  color: #00264d;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+h2, h3 {
+    font-family: "times new roman";
+    color: lightcyan;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: lightcyan;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
