@@ -6,15 +6,15 @@
     font-size: 120%;
 }
 
+
 img {
   width: 70%;
-  position: relative;
   border-style: solid;
   border-width: 10px;
   border-color: white;
   border-radius: 60%;
-}
 
+}
 
 #challanges {
   padding: 60px;
@@ -52,6 +52,7 @@ h1 {
   color: #00264d;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 4px;
 
 }
 
@@ -65,10 +66,12 @@ h2, h3 {
 p, a {
   color: white;
   text-align: center;
+
 }
 
 a:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: dotted;
     text-align: center;
+
 }
