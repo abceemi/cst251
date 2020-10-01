@@ -1,0 +1,72 @@
+#content {
+    font-family: times, serif,  "times new roman";
+    background-color: #e6f2ff;
+    padding: 20px;
+    font-size: 120%;
+}
+
+img {
+  width: 70%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  border-radius: 50%;
+}
+
+
+#challanges {
+  padding: 30px;
+  background-color: #00264d;
+  width:650px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200%;
+  margin-bottom: auto;
+  }
+
+#problems {
+  padding: 30px;
+  background-color: #00264d;
+  width:650px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200%;
+  margin-bottom: auto;
+}
+
+#results {
+    padding: 30px;
+    background-color: #00264d;
+    width:650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200%;
+    margin-bottom: auto;
+
+}
+
+h1 {
+  font-family: "times new roman";
+  color: #00264d;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+h2, h3 {
+    font-family: "times new roman";
+    color: lightcyan;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p, a {
+  color: white;
+  text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-align: center;
+}
