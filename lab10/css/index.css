@@ -8,6 +8,7 @@
 
 img {
   width: 70%;
+  position: absolute;
   border-style: solid;
   border-width: 10px;
   border-color: white;
