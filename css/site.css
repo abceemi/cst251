@@ -1,80 +1,64 @@
-body {
-    font-family: times, serif,  "times new roman";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+body{
+    font-family: "Lucida Console", Courier, monospace;
     background-color: #e6f2ff;
-    padding: 20px;
+    padding: 25px;
     font-size: 120%;
 }
 
-div#image{
-  border-radius: 50%;
-  width: 700px;
-  height: auto;
-  text-align: center;
-  display: circle;
-  margin-left: auto;
-  margin-right: auto;
-  transition: transform .2s;
+img {
+
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  border-radius: 60%;
+  float: right;
+
+
 }
-div#challanges {
-  padding: 30px;
+#intro {
+  padding: 60px;
   background-color: #00264d;
-  border: none;
-  border: center;
-  color: white;
-  width:650px;
-  display: block;
-  text-align: center;
+  width:450px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 80%;
+  margin-bottom: auto;
   }
 
-div#problems {
+#lab {
   padding: 30px;
-  background-color: #00264d;
-  border: center;
-  color: white;
+  background-color: white;
   width:650px;
-  display: block;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-div#results {
-    padding: 30px;
-    background-color: #00264d;
-    border: none;
-    color: white;
-    width:650px;
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
+  border-radius: 200%;
+  margin-bottom: auto;
 }
 
 h1 {
-  font-family: "times new roman";
+  font-family: 'Caveat';
   color: #00264d;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 4px;
 
 }
 
 h2, h3 {
-    font-family: "times new roman";
-    color: lightcyan;
+    font-family: 'Caveat';
+    color: black;
     text-transform: uppercase;
-    text-align: center;
+
 }
 
+p, a {
+  color: white;
+  text-align: center;
 
-a {
-    text-decoration: none;
-    text-align: center;
-    color: lightcyan;
 }
+
 a:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
-}
+    text-decoration-style: dotted;
+    text-align: center;
