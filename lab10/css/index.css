@@ -47,7 +47,7 @@ img {
 }
 
 h1 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Caveat';
   color: #00264d;
   text-transform: uppercase;
   text-align: center;
@@ -55,7 +55,7 @@ h1 {
 }
 
 h2, h3 {
-    font-family: 'Caveat', cursive;
+    font-family: 'Caveat';
     color: #9dfcd3;
     text-transform: uppercase;
     text-align: center;
