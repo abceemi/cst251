@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 #content {
     font-family: "Lucida Console", Courier, monospace;
     background-color: #e6f2ff;
@@ -47,7 +47,7 @@ img {
 }
 
 h1 {
-  font-family: "times new roman";
+  font-family: 'Caveat', cursive;
   color: #00264d;
   text-transform: uppercase;
   text-align: center;
@@ -55,7 +55,7 @@ h1 {
 }
 
 h2, h3 {
-    font-family: "times new roman";
+    font-family: 'Caveat', cursive;
     color: #9dfcd3;
     text-transform: uppercase;
     text-align: center;
