@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+#content {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: #e6f2ff;
+    padding: 25px;
+    font-size: 120%;
+}
+
+
+img {
+  width: 70%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  border-radius: 60%;
+
+}
+
+#challanges {
+  padding: 60px;
+  background-color: #00264d;
+  width:650px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 80%;
+  margin-bottom: auto;
+  }
+
+#problems {
+  padding: 30px;
+  background-color: #00264d;
+  width:650px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200%;
+  margin-bottom: auto;
+}
+
+#results {
+    padding: 30px;
+    background-color: #00264d;
+    width:650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 300%;
+    margin-bottom: auto;
+
+}
+
+h1 {
+  font-family: 'Caveat';
+  color: #00264d;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+
+}
+
+h2, h3 {
+    font-family: 'Caveat';
+    color: #9dfcd3;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p, a {
+  color: white;
+  text-align: center;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-align: center;
+
+}
