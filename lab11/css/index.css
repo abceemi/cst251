@@ -12,16 +12,15 @@ nav{
   border-style: solid;
   border-color: white;
   background-color: #00264d;
-  width: 10%;
+  width: 100%;
 
 }
 #sidebar{
   border-style: solid;
+  background-color: #00264d;
   border-width: 10px;
   border-color: white;
   width: 33%;
-
-
 }
 img {
 
@@ -29,11 +28,9 @@ img {
   border-style: solid;
   border-width: 10px;
   border-color: white;
-
   float: inherit;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 40%;
+
 
 }
 
@@ -41,31 +38,23 @@ img {
   padding: 30px;
   background-color: #00264d;
   width:650px;
-  margin-left: auto;
-  margin-right: auto;
+
   border-radius: 80%;
-  margin-bottom: auto;
+
   }
 
 #problems {
   padding: 30px;
   background-color: #00264d;
   width:650px;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 200%;
-  margin-bottom: auto;
 }
 
 #results {
     padding: 30px;
     background-color: #00264d;
     width:650px;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 300%;
-    margin-bottom: auto;
-
 }
 
 h1 {
