@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+#main {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: #e6f2ff;
+    padding: 25px;
+    font-size: 120%;
+}
+#heading{
+  display: block;
+  background-color: #d2eefa;
+  padding: 30px;
+  margin: auto;
+}
+
+nav{
+  display: block;
+  padding: 8px;
+  border-style: solid;
+  border-color: white;
+  background-color: #00264d;
+  width: 100%;
+}
+
+#sidebar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  border-style: solid;
+  background-color: #00264d;
+  border-color: white;
+  width: 33%;
+  border-radius: 10%;
+}
+
+img {
+    float: left;
+    width: 350px;
+    height: auto;
+    border-radius: 60%;
+}
+#labs{
+  padding: 30px;
+  background-color: #00264d;
+  width:650px;
+  margin-left: auto;
+
+
+  margin-bottom: auto;
+  }
+
+#challanges {
+  padding: 30px;
+  background-color: #00264d;
+  text-align: center;
+  margin-left: auto;
+
+  }
+
+#problems {
+  padding: 30px;
+  background-color: #00264d;
+  text-align: center;
+  margin-left: auto;
+
+}
+
+#results {
+    padding: 30px;
+    background-color: #00264d;
+    text-align: center;
+    margin-left: auto;
+
+}
+
+h1 {
+  font-family: 'Caveat';
+  color: #00264d;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+
+}
+
+h2 {
+  font-family: 'Caveat';
+  color: #9dfcd3;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p, a, h3 {
+  font-family: 'Courier';
+  color: white;
+  text-align: left;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-align: center;
+
+}

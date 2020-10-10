@@ -1,60 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
-body{
+#main {
     font-family: "Lucida Console", Courier, monospace;
     background-color: #e6f2ff;
     padding: 25px;
     font-size: 120%;
 }
+#heading{
+  display: block;
+  background-color: orange;
+  padding: 30px;
+  margin: auto;
+}
 
-img {
+nav{
 
   border-style: solid;
-  border-width: 10px;
   border-color: white;
-  border-radius: 60%;
-  float: right;
-
+  background-color: #00264d;
+  width: 100%;
 
 }
-#intro {
-  padding: 60px;
+#sidebar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  border-style: solid;
   background-color: #00264d;
-  width:450px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 80%;
-  margin-bottom: auto;
-  }
+  border-color: white;
 
-#lab {
-  padding: 30px;
-  background-color: white;
-  width:650px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 200%;
-  margin-bottom: auto;
+}
+
+img {
+    float: none;
+    width: 400px;
+    height: auto;
 }
 
 h1 {
   font-family: 'Caveat';
-  color: #00264d;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 4px;
 
 }
 
-h2, h3 {
-    font-family: 'Caveat';
-    color: black;
-    text-transform: uppercase;
-
+h2 {
+  font-family: 'Caveat';
+  color: #9dfcd3;
+  text-transform: uppercase;
+  text-align: left;
 }
 
-p, a {
+p, a, h3 {
+  font-family: 'Courier';
   color: white;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -62,3 +63,5 @@ a:hover {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-align: center;
+
+}
