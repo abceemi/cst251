@@ -28,7 +28,7 @@ nav{
   border-style: solid;
   background-color: #00264d;
   border-color: white;
-  width: 33%;
+  width: 45%;
   border-radius: 10%;
 }
 
@@ -43,9 +43,6 @@ img {
   background-color: #00264d;
   width:650px;
   margin-left: auto;
-
-
-  margin-bottom: auto;
   }
 
 #challanges {
@@ -60,7 +57,7 @@ img {
   padding: 30px;
   background-color: #00264d;
   text-align: center;
-  margin-left: auto;
+  margin-right: auto;
 
 }
 
