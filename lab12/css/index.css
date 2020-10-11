@@ -31,42 +31,36 @@ nav{
   border-color: white;
   width: 29%;
 }
+
 img{
     float: left;
     width: 350px;
     height: auto;
     border-radius: 60%;
 }
+#center-horz{
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
 #labs{
+    margin: auto;
+  position: sticky;
+  top: 0;
+  right: 0;
   padding: 30px;
   background-color: #00264d;
-  width:650px;
+  width:450px;
   margin-left: auto;
   }
 
-#challanges {
+#challanges, #problems, #results {
   padding: 30px;
   background-color: #00264d;
   text-align: center;
   margin-left: auto;
 
   }
-
-#problems {
-  padding: 30px;
-  background-color: #00264d;
-  text-align: center;
-  margin-right: auto;
-
-}
-
-#results {
-    padding: 30px;
-    background-color: #00264d;
-    text-align: center;
-    margin-left: auto;
-
-}
 
 h1 {
   font-family: 'Caveat';
@@ -85,6 +79,7 @@ h2 {
 }
 
 p, a, h3 {
+  border: 3px solid orange;
   font-family: 'Courier';
   color: white;
   text-align: left;
