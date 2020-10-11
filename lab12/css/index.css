@@ -5,6 +5,13 @@
     padding: 25px;
     font-size: 120%;
 }
+#content{
+  display: block;
+  background-color: #e6f2ff;
+  padding: 30px;
+  border: 10px dotted #00264d;
+
+}
 #heading{
   display: block;
   background-color: #d2eefa;
@@ -18,30 +25,24 @@ nav{
   border-style: solid;
   border-color: white;
   background-color: #00264d;
-  width: 100%;
+  width: 99%;
 }
-img{
+.img-me{
   border-radius: 60%;
 }
 #sidebar{
-  position: sticky;
-  top: 0;
-  right: 0;
   border-style: solid;
   background-color: #00264d;
-  border-width: 6px;
+  border-width: 10px;
   border-color: white;
-  width: 30%;
-}
+  width: 33%;
+  }
 
 #floated{
-  float: right;
+  margin: auto;
   width: 30%;
   display: inline-block;
-  margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+
 }
 
 #center-horz{
@@ -57,14 +58,12 @@ img{
   border-radius: 60%;
 }
 #about-me{
-    margin: auto;
-  position: sticky;
-  top: 0;
-  right: 0;
+
   padding: 30px;
   background-color: #00264d;
   width:450px;
   margin-left: auto;
+  text-align: center;
   }
 
 #challanges, #problems, #results {
