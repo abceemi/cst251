@@ -27,9 +27,9 @@ nav{
   right: 0;
   border-style: solid;
   background-color: #00264d;
-  border-width: 8px;
+  border-width: 6px;
   border-color: white;
-  width: 29%;
+  width: 30%;
 }
 
 img{
@@ -40,14 +40,14 @@ img{
 }
 #center-horz{
   margin: auto;
-  width: 50%;
+  width: 30%;
   padding: 20px;
 }
 #center-img, #center-both{
   position: sticky;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 30%;
   padding: 20px;
 }
 #labs{
