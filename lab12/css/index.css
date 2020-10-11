@@ -20,7 +20,9 @@ nav{
   background-color: #00264d;
   width: 100%;
 }
-
+img{
+  border-radius: 60%;
+}
 #sidebar{
   position: sticky;
   top: 0;
@@ -32,25 +34,29 @@ nav{
   width: 30%;
 }
 
-img{
-    float: left;
-    width: 350px;
-    height: auto;
-    border-radius: 60%;
+#floated{
+  float: right;
+  width: 30%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
+
 #center-horz{
   margin: auto;
   width: 30%;
   padding: 20px;
 }
 #center-img, #center-both{
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 30%;
   padding: 20px;
+  float: left;
+  width: 350px;
+  height: auto;
+  border-radius: 60%;
 }
-#labs{
+#about-me{
     margin: auto;
   position: sticky;
   top: 0;
