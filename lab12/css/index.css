@@ -39,23 +39,28 @@ nav{
   }
 
 #floated{
-  margin: auto;
-  width: 30%;
-  display: inline-block;
-
+  float: right;
+  content: both;
 }
 
 #center-horz{
-  margin: auto;
-  width: 30%;
-  padding: 20px;
+  text-align: center;
+  display: block;
+  background-color: #00264d;
+  padding: 30px;
 }
-#center-img, #center-both{
-  padding: 20px;
-  float: left;
-  width: 350px;
-  height: auto;
+#center-img {
+  text-align: center;
+
+}
+#center-both{
+  position: relative;
+}
+#center-both img{
+  left: 0;
   border-radius: 60%;
+  background-color: #00264d;
+  text-align: center;
 }
 #about-me{
 
@@ -78,29 +83,26 @@ h1 {
   font-family: 'Caveat';
   color: #00264d;
   text-transform: uppercase;
-  text-align: center;
   letter-spacing: 4px;
-
+  text-align: center;
 }
 
 h2 {
   font-family: 'Caveat';
   color: #9dfcd3;
   text-transform: uppercase;
-  text-align: center;
 }
 
 p, a, h3 {
   border: 3px solid orange;
   font-family: 'Courier';
   color: white;
-  text-align: left;
 
 }
 
 a:hover {
     text-decoration: underline;
     text-decoration-style: dotted;
-    text-align: center;
+
 
 }
