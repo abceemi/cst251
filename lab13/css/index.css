@@ -1,0 +1,19 @@
+
+#fire img{
+  text-align: left;
+  width: 50%;
+  height: auto;
+}
+#rightblocks{
+
+  display: block;
+  background-color: #c3c7c4;
+  float: left;
+  width: 535px;
+  height: 380px;
+}
+#bottomblock{
+  display: block;
+  background-color: black;
+background-position: right top;
+}
