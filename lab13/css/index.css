@@ -31,6 +31,55 @@ h1{
   left: 270px;
   top: 140px;
   font-size: 110px;
-
-
+}
+h2{
+  font-family: 'Nanum Myeongjo';
+  color: white;
+  letter-spacing: 4px;
+  position: absolute;
+  left: 0;
+  top: 170px;
+  font-size: 90px;
+}
+#text{
+  position: absolute;
+  left: 150px;
+  top: 350px;
+  line-height: 20px;
+  color: black;
+  font-size: 12px;
+}
+#scroll{
+  position: absolute;
+  left: 510px;
+  top: 420px;
+  line-height: 20px;
+  color: white;
+  font-size: 12px;
+}
+#number{
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  line-height: 20px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+#about{
+  position: absolute;
+  left: 830px;
+  top: 30px;
+  line-height: 20px;
+  color: white;
+  font-size: 12px;
+}
+#project{
+  position: absolute;
+  left: 5px;
+  top: 50px;
+  line-height: 20px;
+  color: white;
+  font-size: 18px;
+  word-spacing: 20px;
 }
