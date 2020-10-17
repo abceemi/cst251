@@ -1,0 +1,36 @@
+
+#main{
+  font-family: ;
+}
+#content{
+  width: 110%;
+  height: 460px;
+  display: grid;
+  background-color:#C1C2BB;
+
+}
+#fire img{
+  text-align: left;
+  width: 50%;
+  height: auto;
+}
+.blocks{
+  flex: 33.33%
+  padding: 5px;
+  width: 100px;
+  height: 500px;
+}
+
+
+#logo img{
+  position: absolute;
+  left: 90px;
+  top: 30px;
+  width: 550px;
+}
+#people img{
+  position: absolute;
+  left: 870px;
+  top: 270px;
+  width: 300px;
+}
