@@ -1,85 +1,65 @@
-@import url('href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
-#main{
-  font-family: 'Nanum Myeongjo', serif;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+#main {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: #e6f2ff;
+    padding: 25px;
+    font-size: 120%;
 }
-.column{
-  flex: 33.33%
-  padding: 5px;
-}
-.row {
-  display: flex;
-}
-.column img{
-  width: 100px;
-  height: 500px;
-}
-#amy img{
-  height: 500px;
-  width: 450px;
-}
-#box{
+#content{
   display: block;
-  background-color: #fae5eb;
-  height: 500px;
-  width: 350px;
+  background-color: #e6f2ff;
+  padding: 30px;
+  border: 10px dotted #00264d;
+
 }
-h1{
-  font-family: 'Nanum Myeongjo';
-  color: white;
+#heading{
+  display: block;
+  background-color: #d2eefa;
+  padding: 30px;
+  margin: auto;
+}
+
+nav{
+  display: block;
+  padding: 10px;
+  border-style: solid;
+  border-color: white;
+  background-color: #00264d;
+  width: 99%;
+}
+
+#challanges, #problems, #results {
+  padding: 30px;
+  background-color: #00264d;
+  text-align: center;
+  margin-left: auto;
+
+  }
+
+h1 {
+  font-family: 'Caveat';
+  color: #00264d;
+  text-transform: uppercase;
   letter-spacing: 4px;
-  position: absolute;
-  left: 270px;
-  top: 140px;
-  font-size: 110px;
+  text-align: center;
 }
-h2{
-  font-family: 'Nanum Myeongjo';
+
+h2 {
+  font-family: 'Caveat';
+  color: #9dfcd3;
+  text-transform: uppercase;
+}
+
+p, a, h3 {
+  border: 3px solid orange;
+  font-family: 'Courier';
   color: white;
-  letter-spacing: 4px;
-  position: absolute;
-  left: 0;
-  top: 170px;
-  font-size: 90px;
+
 }
-#text{
-  position: absolute;
-  left: 150px;
-  top: 350px;
-  line-height: 20px;
-  color: black;
-  font-size: 12px;
-}
-#scroll{
-  position: absolute;
-  left: 510px;
-  top: 420px;
-  line-height: 20px;
-  color: white;
-  font-size: 12px;
-}
-#number{
-  position: absolute;
-  left: 150px;
-  top: 150px;
-  line-height: 20px;
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
-}
-#about{
-  position: absolute;
-  left: 830px;
-  top: 30px;
-  line-height: 20px;
-  color: white;
-  font-size: 12px;
-}
-#project{
-  position: absolute;
-  left: 5px;
-  top: 50px;
-  line-height: 20px;
-  color: white;
-  font-size: 18px;
-  word-spacing: 20px;
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+
+
 }
