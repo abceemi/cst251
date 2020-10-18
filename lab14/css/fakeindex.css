@@ -51,7 +51,7 @@
 }
 #text{
   position: absolute;
-  left: 1550px;
+  left: 1500px;
   top: 110px;
   line-height: 20px;
   font-size: 18px;
@@ -67,15 +67,15 @@
 #b{
   position: absolute;
   left: 1650px;
-  top: 0px;
+  top: -90px;
   line-height: 20px;
   color: white;
   font-size: 300px;
 }
 #a{
   position: absolute;
-  left: 1270px;
-  top: 90px;
+  left: 1100px;
+  top: -90px;
   line-height: 20px;
   color: white;
   font-size: 300px;
@@ -83,7 +83,7 @@
 #m{
   position: absolute;
   left: 240px;
-  top: 0px;
+  top: -90px;
   line-height: 20px;
   color: white;
   font-size: 300px;
