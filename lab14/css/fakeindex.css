@@ -5,7 +5,7 @@
 #content{
   display: block;
   width: 110%;
-  height: 460px;
+  height: 660px;
   display: grid;
   background-color:#C1C2BB;
 
@@ -62,7 +62,7 @@
   background-color: #d8d8da;
   width: 1530px;
   height:575px;
-  top: 465px;
+  top: 655px;
   right:318px;
   z-index: -110:
 }
