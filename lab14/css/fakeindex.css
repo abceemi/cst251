@@ -3,6 +3,7 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 #content{
+  display: block;
   width: 110%;
   height: 460px;
   display: grid;
