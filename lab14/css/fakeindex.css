@@ -18,6 +18,24 @@
 
 
 }
+#one img{
+  position: absolute;
+  width: 350px;
+  left: 1500px;
+  top:200px;
+}
+#two{
+  position: absolute;
+  width: 700px;
+  left:1550;
+  top:200px;
+}
+#three{
+  position: absolute;
+  width: 200px;
+  left:810;
+  top:200px;
+}
 .blocks{
   flex: 33.33%
   padding: 5px;
