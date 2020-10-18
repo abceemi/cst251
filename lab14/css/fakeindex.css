@@ -11,7 +11,8 @@
 
 }
 #fire img{
-  text-align: left;
+  position: absolute;
+  left: 0;
   width: 50%;
   height: auto;
 }
@@ -29,25 +30,10 @@
   top: 30px;
   width: 550px;
 }
-#house{
+#objects{
   position: absolute;
-  left: 400px;
-  top: 30px;
-  width: 550px;
-}
-#bag{
-  position: absolute;
-  left: 90px;
-  top: 30px;
-  width: 550px;
-}
-#lilfire{
-  position: absolute;
-  left: 1115px;
-  top: 80px;
-  line-height: 20px;
-  color: white;
-  font-size: 150px;
+  left: 800px;
+  top: 20px;
 }
 
 .container img{
@@ -57,14 +43,14 @@
   width: 300px;
 }
 #bottomrightblock{
+  border-style: none;
   background-color: #DADADA;
-  width: 600px;
-  height: 260px;
-  display: block;
-  position: absolute;
-  right: 0px;
-  top: 98px;
-  bottom: 800px;
+  border-width: 10px;
+  width: 350%;
+  height: 300px;
+  position: inherit;
+  top: 20;
+  left:0;
 }
 #text{
   position: absolute;
@@ -82,6 +68,22 @@
   text-align: right;
 }
 #b{
+  position: absolute;
+  left: 1115px;
+  top: 80px;
+  line-height: 20px;
+  color: white;
+  font-size: 150px;
+}
+#a{
+  position: absolute;
+  left: 850px;
+  top: 80px;
+  line-height: 20px;
+  color: white;
+  font-size: 150px;
+}
+#m{
   position: absolute;
   left: 1115px;
   top: 80px;
