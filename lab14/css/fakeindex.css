@@ -10,11 +10,13 @@
   background-color:#C1C2BB;
 
 }
-#fire img{
+#left img{
   position: absolute;
   left: 0;
   width: 50%;
-  height: auto;
+  height: 600px;
+
+
 }
 .blocks{
   flex: 33.33%
@@ -28,19 +30,14 @@
   position: absolute;
   left: 90px;
   top: 30px;
-  width: 550px;
-}
-#objects{
-  position: absolute;
-  left: 800px;
-  top: 20px;
+  width: 900px;
 }
 
 .container img{
   position: absolute;
-  left: 870px;
-  top: 270px;
-  width: 300px;
+  left: 1150px;
+  top: 250px;
+  width: 600px;
 }
 #bottomrightblock{
   border-style: none;
@@ -54,42 +51,42 @@
 }
 #text{
   position: absolute;
-  left: 1020px;
-  top: 170px;
+  left: 1550px;
+  top: 110px;
   line-height: 20px;
-  font-size: 12px;
+  font-size: 18px;
 }
 #text2{
   position: absolute;
-  left: 900px;
-  top: 450px;
+  left: 1350px;
+  top: 550px;
   line-height: 20px;
   font-size: 12px;
   text-align: right;
 }
 #b{
   position: absolute;
-  left: 1115px;
-  top: 80px;
+  left: 1650px;
+  top: 0px;
   line-height: 20px;
   color: white;
-  font-size: 150px;
+  font-size: 300px;
 }
 #a{
   position: absolute;
-  left: 850px;
-  top: 80px;
+  left: 1270px;
+  top: 90px;
   line-height: 20px;
   color: white;
-  font-size: 150px;
+  font-size: 300px;
 }
 #m{
   position: absolute;
-  left: 1115px;
-  top: 80px;
+  left: 240px;
+  top: 0px;
   line-height: 20px;
   color: white;
-  font-size: 150px;
+  font-size: 300px;
 }
 p {
   font-family: 'Nunito Sans', sans-serif;
