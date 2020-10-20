@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+#main {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: #e6f2ff;
+    padding: 25px;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content{
+  display: block;
+  background-color: #e6f2ff;
+  padding: 30px;
+  border: 10px dotted #00264d;
+  width: auto;
+
+}
+#heading{
+  display: block;
+  background-color: #d2eefa;
+  padding: 20px;
+
+}
+
+nav{
+  display: block;
+  padding: 10px;
+  border-style: solid;
+  border-color: white;
+  background-color: #00264d;
+  width: 99%;
+}
+iframe#fake{
+  width:800px;
+  height:500px;
+  resize:both;
+  overflow:hidden;
+}
+#challanges, #problems, #results {
+  padding: 30px;
+  background-color: #00264d;
+  text-align: center;
+  margin-left: auto;
+
+  margin-right: auto;
+
+  }
+
+h1 {
+  font-family: 'Caveat';
+  color: #00264d;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Caveat';
+  color: #9dfcd3;
+  text-transform: uppercase;
+}
+
+p, a, h3 {
+  border: 3px solid orange;
+  font-family: 'Courier';
+  color: white;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+
+
+}
