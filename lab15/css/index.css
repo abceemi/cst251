@@ -36,12 +36,6 @@ nav{
   height: 580px;
   width:200px;
 }
-iframe#fancy{
-  width:800px;
-  height:500px;
-  resize:both;
-  overflow:hidden;
-}
 #base{
   display: block;
   background-color: #f9f4ee;
@@ -93,7 +87,7 @@ img:hover {
   }
   #problems{
     position: absolute;
-    left: 20%;
+    left: 35%;
     top: 450px;
     border-radius: 0 25px;
     display: block;
@@ -106,7 +100,7 @@ img:hover {
     }
   #results{
     position: absolute;
-    left: 36%;
+    left: 66%;
     top: 450px;
     border-radius: 0 25px;
     display: block;
