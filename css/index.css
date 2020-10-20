@@ -1,71 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
-#main {
+#content {
     font-family: "Lucida Console", Courier, monospace;
-    background-color: #e6f2ff;
-    padding: 25px;
     font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #f9f4ee;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    width: 1400px;
+    height:1000px;
 }
 #heading{
-  display: block;
-  background-color: orange;
-  padding: 30px;
-  margin: auto;
+  position: absolute;
+  top: -13px;
+  left: 600px;
+  font-size: 15px;
+  text-shadow: 0 0 3px grey;
 }
-
+#intro{
+  position: absolute;
+  top: 150px;
+  left: 840px;
+  font-size: 20px;
+}
+#lunaintro{
+  position: absolute;
+  top: 630px;
+  left: 840px;
+  font-size: 20px;
+}
 nav{
-
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  height: 25px;
+  width:1380px;
+  padding: 10px;
   border-style: solid;
   border-color: white;
   background-color: #00264d;
-  width: 100%;
 
 }
-#sidebar{
-  position: sticky;
-  top: 0;
+#labs{
+  position: absolute;
+  top: 115px;
   left: 0;
   border-style: solid;
-  background-color: #00264d;
+  background-color: #e1e4e6;
   border-color: white;
-
+  width:550px;
+  height: auto;
+  box-shadow:  3px 3px 7px black;
 }
 
-img {
-    float: none;
-    width: 400px;
-    height: auto;
+#me img {
+  position: absolute;
+  left: 550px;
+  top: 135px;
+  filter: blur(1.5px);
+  width: 230px;
+  height: 300px;
+  object-fit: cover;
+  transform: rotate(-13deg);
+  border:4px solid #ea6455;
+   filter: grayscale(100%);
+   box-shadow:  2px 2px 3px black;
+}
+#luna img {
+  position: absolute;
+  left: 550px;
+  top: 505px;
+  filter: blur(1.5px);
+  width: 230px;
+  height: 300px;
+  object-fit: cover;
+  transform: rotate(25deg);
+  border:4px solid #ea6455;
+   filter: grayscale(100%);
+   box-shadow:  2px 2px 3px black;
 }
 
 h1 {
   font-family: 'Caveat';
-  color: white;
+  color: black;
   text-transform: uppercase;
-  text-align: center;
   letter-spacing: 4px;
-
+  text-align: center;
 }
-
-h2 {
+p {
   font-family: 'Caveat';
-  color: #9dfcd3;
+  color: black;
   text-transform: uppercase;
+  letter-spacing: 4px;
   text-align: left;
 }
-
-p, a, h3 {
-  font-family: 'Courier';
+h3{
+  font-family: 'Caveat';
   color: white;
-  text-align: left;
-
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
 }
+h2, a{
+  font-family: 'Caveat';
+  color: #ea6455;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: left;
+}
+
+
 
 a:hover {
     text-decoration: underline;
     text-decoration-style: dotted;
-    text-align: center;
-
-}
-#fancy{
-  width: 1200px;
-  height:800px;
 }
