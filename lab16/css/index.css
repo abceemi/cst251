@@ -32,7 +32,11 @@ nav{
   border-color: white;
   background-color: #00264d;
   border-width: thick;
+  transition: width 2s;
 
+}
+nav:hover{
+  width: 200px;
 }
 
 #me img {
@@ -57,6 +61,29 @@ nav{
 .box img:hover {
   background-color: orange;
 }
+.content{
+  column-count: 3;
+}
+.textbox{
+  padding: 10px;
+  position: absolute;
+  left: 25%;
+  top: 250px;
+  border-radius: 0 25px;
+  display: block;
+  background-color: #cae8db;
+  border:3px solid white;
+  width: 700px;
+  height: 400px;
+  box-shadow:  3px 3px 8px black;
+  transform: rotate(1deg);
+  
+}
+.textbox:hover {
+  border:dotted  10px white;
+  background-color: #f2e0a7;
+}
+
 h1 {
   font-family: 'Caveat';
   color: black;
@@ -84,55 +111,4 @@ h2, a{
   text-transform: uppercase;
   letter-spacing: 4px;
   text-align: left;
-}
-a:hover {
-    text-decoration: underline;
-    text-decoration-style: dotted;
-}
-#problems{
- width: 100px;
- height: 100px;
- transition: hight
-}
-.content{
-  column-count: 3;
-  top:0;
-  height: 500px;
-
-}
-.textbox{
-  padding: 10px;
-  position: absolute;
-  left: 25%;
-  top: 250px;
-  border-radius: 0 25px;
-  display: block;
-  background-color: #cae8db;
-  border:2px solid white;
-  width: 700px;
-  height: 400px;
-  box-shadow:  3px 3px 8px black;
-  transform: rotate(1deg);
-}
-.textbox:hover {
-  border: dotted 6px #ff0000;
-  border-image-slice: 50;
-  border-image-width: 10px;
-  border-image-repeat: round;
-  animation-name: border;
-  animation-duration: 0.75s;
-  animation-iteration-count: infinite;
-  animation-name: border;
-}
-.textbox span{
-  width: 600px;
-  height: inherit;
-  position: absolute;
-  display: block;
-  box-sizing: border-box;
-}
-@keyframes border {
-transform: scalex(0);
-transform-origin: left;
-
 }
