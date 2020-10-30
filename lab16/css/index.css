@@ -11,6 +11,9 @@
   font-size: 15px;
   text-shadow: 0 0 3px grey;
 }
+ h1:hover{
+  background-color: white;
+}
 html{
   background: url(colors.png)no-repeat center fixed;
   background-size: cover;
@@ -38,7 +41,26 @@ nav{
 nav:hover{
   width: 200px;
 }
-
+#pic img{
+  filter: blur(1.5px);
+  width: 180px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 100px;
+  border:4px solid #ea6455;
+   filter: grayscale(100%);
+}
+#pic{
+  position: absolute;
+  left: 30px;
+  top: 850px;
+  background-color: white;
+  border-radius: 150px;
+}
+@keyframes heading{
+  from{color:  white}
+  to {color: orange}
+}
 #me img {
   position: absolute;
   left: 50px;
@@ -77,7 +99,7 @@ nav:hover{
   height: 400px;
   box-shadow:  3px 3px 8px black;
   transform: rotate(1deg);
-  
+
 }
 .textbox:hover {
   border:dotted  10px white;

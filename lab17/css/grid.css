@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+#content {
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 120%;
+}
+.flex{
+  display: flex;
+  border: solid 1px red;
+  max-width: 70%;
+  flex-wrap:  wrap;
+  justify-content: center;
+}
+.box {
+  width: 250px;
+  min-width: 200px;
+  height: 300px;
+  border: solid 1px blue;
+}
