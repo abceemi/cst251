@@ -40,6 +40,7 @@
   left: 5%;
   height: 30%;
   width: 30%;
+  text-align: left;
 }
 #content {
   display: block;
@@ -62,7 +63,8 @@
 #requierments {
   position: absolute;
   top: 69%;
-  left: 8%;
+  left: 5%;
+  font-size: 12px;
 }
 nav{
   display: block;
@@ -73,18 +75,21 @@ nav{
   left: 80%;
   height: 25%;
   width:9%;
+  text-align: center;
+  line-height: 2;
 }
 p{
   font-family: 'Caveat';
   color: black;
   letter-spacing: 4px;
-  text-align: center;
+  font-size: 22px;
 }
-a{
+a {
   font-family: 'Caveat';
   color: black;
   letter-spacing: 4px;
-  
+  text-align: center;
+
 }
 aside {
   display: block;
@@ -103,6 +108,15 @@ aside img{
   position: absolute;
   top:3%;
   left:3%;
+}
+aside p{
+  font-family: 'Caveat';
+  color: white;
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  font-size: 27px;
+  text-align: center;
 }
 
 #footertext{
