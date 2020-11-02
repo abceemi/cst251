@@ -73,10 +73,10 @@ nav{
   position: absolute;
   top: 9px;
   left: 80%;
-  height: 25%;
+  height: 28%;
   width:9%;
   text-align: center;
-  line-height: 2;
+  line-height: 2 ;
 }
 p{
   font-family: 'Caveat';
