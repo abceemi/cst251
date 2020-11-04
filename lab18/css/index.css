@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+.container{
+  background-color: #1e2843;
+}
+.header{
+  display: flex;
+  border: 2px solid white;
+
+}
+.box0{
+  margin: 10px;
+  width:50%;
+  border: 2px solid #B671ED;
+  background-color: #745B87;
+}
+.box0 img{
+  display: block;
+  width: 90%;
+}
+.main{
+  display: flex;
+  border: 3px solid white;
+
+}
+.box{
+  margin: 10px;
+  width:50%;
+  height: 100%;
+  border: 2px solid #B671ED;
+  background-color: #745B87;
+}
+.box2{
+  margin: 10px;
+  width:25%;
+  height: 100%;
+  border: 2px solid #B671ED;
+
+}
+.flex{
+  display: flex;
+  min-width: 50%;
+  flex-direction: row-reverse;
+}
+.box3{
+  margin: 10px;
+  width:25%;
+  height: 80%;
+}
+.flex2{
+  display: flex;
+  min-width: 50%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.flex3{
+  display: flex;
+  border: 3px solid white;
+}
+.box3 img{
+  display: block;
+  width: 80%;
+}
+#sidebar{
+  display: block;
+  background-color: #f1c780;
+  border: 2px solid black;
+  height: 28%;
+  width:100%;
+  text-align: center;
+}
+#sidebar img{
+  display: block;
+  width: 90%;
+
+}
+#links{
+  display: block;
+  background-color: #a39967;
+  border: 2px solid black;
+  width:100%;
+  text-align: center;
+}
+#links img{
+  display: block;
+  width: 80%;
+}
+h1, h2, p{
+  font-family: 'Caveat';
+  color: white;
+  letter-spacing: 4px;
+  text-align: center;
+}
+a{
+  font-family: 'Caveat';
+  color: #745B87;
+  letter-spacing: 4px;
+  text-align: center;
+}
+h3{
+  font-family: 'Caveat';
+  color: #745B87;
+  letter-spacing: 4px;
+  text-align: left;
+}
