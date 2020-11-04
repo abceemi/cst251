@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 .container{
   background-color: #1e2843;
+  float: left;
+  width: 60%;
 }
 .header{
   display: flex;
@@ -102,3 +104,9 @@ h3{
   letter-spacing: 4px;
   text-align: left;
 }
+@media screen and
+(max-width:800px
+) {
+ .left, .main, .right {
+ width:100%;
+ }
