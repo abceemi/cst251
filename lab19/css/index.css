@@ -11,3 +11,7 @@
 .navbar-expand-sm{
 
 }
+.col-sm-8 img{
+  display: block;
+  width: 100%;
+}
