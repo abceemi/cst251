@@ -1,1 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+.row{
+  border: solid 1px green;
+}
+.col{
+  border: solid 1px pink;
+}
+.navbar {
+  background-color: pink;
+}
+.navbar-expand-sm{
+
+}
