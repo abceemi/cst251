@@ -20,9 +20,10 @@ font-size: 60px;
 /*Section Titles*/
 h2 {
 font-family: 'Amatic SC', cursive;
-font-size: 30px;
+font-size: 50px;
 color: black;
 font-weight: bold;
+text-align: center;
 }
 
 .flex1 {
