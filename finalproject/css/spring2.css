@@ -1,0 +1,200 @@
+/* Spring Colors Hexadecimal Code*/
+/*Pink #ff7d96 Green #88c800*/
+.nav {
+border: solid 0.5px black;
+text-align: center;
+font-family: 'Amatic SC';
+background-color: black;
+}
+
+.nav a {
+padding: 15px 30px;
+font-size: 45px;
+}
+
+/*Seasonal Cinema Main Title*/
+h1 {
+font-family: 'Amatic SC', cursive;
+font-size: 60px;
+}
+/*Section Titles*/
+h2 {
+font-family: 'Amatic SC', cursive;
+font-size: 30px;
+color: black;
+font-weight: bold;
+}
+
+.flex1 {
+text-align: center;
+border: solid 0.5px;
+color: black;
+background-color: #f2e1d0;
+}
+
+a:visited {
+color: white;
+}
+
+a {
+text-decoration: none;
+}
+
+a:link {
+color: white;
+}
+
+a:active{
+color: white;
+}
+
+img {
+width: 220px;
+height: 330px;
+
+}
+
+div#flex2 {
+  border: solid 5px #88c800;
+  background-color: #f2e1d0;
+  padding: 15px;
+  display: block;
+}
+
+div#drop {
+  height: 50%;
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+}
+/*
+div#drop img {
+  height: 300px;
+  width: 200px;
+  display: inline-block;
+} */
+
+div#drop h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+/*My Neighbor Totoro*/
+div#flex3 {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-left: 10%;
+}
+
+div#flex3 a {
+  color: white;
+  font-weight: bold;
+}
+div#flex3 h3 {
+  font-family: 'Limelight', cursive;
+  font-size: 20px;
+  margin: 0px;
+}
+
+div#flex3 figcaption {
+  display: flex;
+  width: 220px;
+}
+/*Planet Earth*/
+div#flex4 {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-left: auto;
+  position: absolute;
+  margin-left: 20%;
+}
+
+div#flex4 a {
+  color: white;
+  font-weight: bold;
+}
+div#flex4 h3 {
+  font-family: 'Limelight', cursive;
+  font-size: 20px;
+  margin: 0px;
+}
+
+div#flex4 figcaption {
+  display: flex;
+  width: 220px;
+}
+
+/*Ferris Bueller's Day Off*/
+div#flex5 {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  position: relative;
+  width: 33%;
+}
+
+div#flex5 a {
+  color: white;
+  font-weight: bold;
+}
+div#flex5 h3 {
+  font-family: 'Limelight', cursive;
+  font-size: 20px;
+  margin: 0px;
+}
+
+div#flex5 figcaption {
+  display: flex;
+  width: 220px;
+}
+
+/*Parasite*/
+div#flex6 {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  position: relative;
+  width: 33%;
+}
+
+div#flex6 a {
+  color: white;
+  font-weight: bold;
+}
+div#flex6 h3 {
+  font-family: 'Limelight', cursive;
+  font-size: 20px;
+  margin: 0px;
+}
+
+div#flex6 figcaption {
+  display: flex;
+  width: 220px;
+}
+/*Bee Movie*/
+div#flex7 {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  width: 33%;
+  position: relative;
+}
+
+div#flex7 a {
+  color: white;
+  font-weight: bold;
+}
+div#flex7 h3 {
+  font-family: 'Limelight', cursive;
+  font-size: 20px;
+  margin: 0px;
+}
+
+div#flex7 figcaption {
+  display: flex;
+  width: 220px;
+}
