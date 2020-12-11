@@ -56,15 +56,16 @@ height: 330px;
   display: flex;
   border: solid 5px #8ac906;
   background-color: #f2e1d0;
+  padding: 20px;
   width: inherit;
-  flex-wrap: wrap;
+  flex-wrap: wrap
 }
 .box{
+  font-family: 'Roboto', sans-serif;
   width: 300px;
   max-width: 00px
   height: 600px;
-
 }
-.container{
-  flex-grow: 2;
+.box h3{
+  font-family: 'Limelight', cursive:
 }
