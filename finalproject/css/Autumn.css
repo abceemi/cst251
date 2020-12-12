@@ -22,6 +22,13 @@ font-size: 45px;
   padding-top: 20px;
 }
 
+img.leaf {
+  width: 350px;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
 /*Seasonal Cinema Main Title*/
 h1 {
 font-family: 'Amatic SC', cursive;
@@ -38,14 +45,10 @@ font-weight: bold;
 text-align: center;
 }
 
-.shadow img{
-  box-shadow: 5px 10px #88c800;
-}
-
 .flex1 {
 text-align: center;
 border: solid 0.5px black;
-color: #8ac906;
+color: #f47b20;
 background-color: #f2e1d0;
 }
 a:visited {
@@ -63,21 +66,22 @@ color: white;
 a:active{
 color: white;
 }
-
+.box a {
+  color: #f47b20;
+}
 img {
 width: 220px;
 height: 330px;
 }
-
+.shadow img{
+  box-shadow: 5px 10px #f47b20;
+}
 .flex{
   display: flex;
-  border: solid 10px #8ac906;
+  border: solid 10px #f47b20;
   background-color: #f2e1d0;
   width: inherit;
   flex-wrap: wrap;
-}
-.box a{
-  color:#8ac906;
 }
 .box{
   width: 300px;
@@ -87,7 +91,6 @@ height: 330px;
   padding: 20px;
   margin-left: 150px;
 }
-
 .container{
   flex-grow: 2;
 }
